@@ -59,3 +59,5 @@ flagged call.
 Files ready in ~/workspace/makefun/u-gentle-badger-68-fridge-roast-one-line-biggest-laugh-a7c354bb/:
 main.py, README.md, LICENSE, .makefun/owner.json, .gitignore, BUILD_LOG.md.
 No repo created, no commit, no submission yet.
+
+- 2026-11-25 14:17 WIB (reviser): revisi thinking_revised — tambah komentar di main() sebelum validate(ENTRY) yang menjelaskan kenapa entry harus satu kalimat (judge menilai sebagai satu roast utuh). ENTRY tidak diubah, logika validate()/main() tidak diubah. Verifikasi lokal: MAKEFUN_OUTPUT_DIR=/tmp/out-fr python3 main.py → "wrote 133 bytes", entry.txt 133 byte, identik dengan entry final.

@@ -53,6 +53,9 @@ def validate(text: str) -> None:
 
 
 def main() -> int:
+    # One sentence, one punch: the judge scores the line as a single
+    # roast, so validate() enforces the single-sentence form before
+    # anything is written.
     validate(ENTRY)
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
